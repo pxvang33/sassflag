@@ -1,0 +1,34 @@
+/* NO TOUCHY */
+#flag {
+  margin: 0 auto;
+}
+
+b, s {
+  display: block;
+  position: relative;
+  outline: 1px solid black;
+}
+
+b {
+  float: left;
+  z-index: 999;
+}
+
+#flag {
+  height: 400px;
+  width: 760px;
+}
+
+b {
+  background-color: #002868;
+  height: 215.38462px;
+  width: 304px;
+}
+
+s {
+  height: 30.76923px;
+}
+
+s:nth-of-type(odd) {
+  background-color: #BF0A30;
+}
