@@ -1,0 +1,19 @@
+{
+  "name": "sassflag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx gulp build",
+    "build:watch": "npx gulp watch",
+    "serve": "npx http-server . -s",
+    "start": "npm run build:watch & npm run serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.11.1"
+  }
+}
