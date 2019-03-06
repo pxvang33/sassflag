@@ -18,9 +18,15 @@ $ npm run serve
 
 Fill in the blanks in `./src/main.scss` to make the American flag appear!
 
+Copy and paste your SASS to [sass.js.org](https://sass.js.org/), convert it, then copy and paste it to `./dist/main.css`. *Don't get `dist` and `src` mixed up!*
+
 * You will *not* need to change `index.html`.
 * You will *not* need to change the "no touchy" line.
 * The only place you'll need to add new lines of code is the part where you make the stripes red. **Do this last!** Everything else is just finishing the lines that have already been written.
+
+The result will look like this:
+
+![Flag](./flag.jpg)
 
 ## Part 1.5: Deploy to GitHub Pages
 
@@ -40,3 +46,4 @@ Fill in the blanks in `./src/main.scss` to make the American flag appear!
 
 	![Gulp](./gulp.jpg)
 4. Fill in the rest such that when you run `npm start`, then make changes to `main.scss`, you see those changes automatically show up on the page `localhost:8080`.
+	* As a reference, use https://www.robertakarobin.com/sassgulp/gulpfile.js
