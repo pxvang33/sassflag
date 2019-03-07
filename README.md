@@ -18,7 +18,7 @@ $ npm run serve
 
 Fill in the blanks in `./src/main.scss` to make the American flag appear!
 
-Copy and paste your SASS to [sass.js.org](https://sass.js.org/), convert it, then copy and paste it to `./dist/main.css`. *Don't get `dist` and `src` mixed up!*
+How do you convert your SCSS to CSS? Copy and paste your SASS to [sass.js.org](https://sass.js.org/), convert it, then copy and paste it to `./dist/main.css`. *Don't get `dist` and `src` mixed up!*
 
 * You will *not* need to change `index.html`.
 * You will *not* need to change the "no touchy" line.
@@ -28,7 +28,7 @@ The result will look like this:
 
 ![Flag](./flag.jpg)
 
-## Part 1.5: Deploy to GitHub Pages
+## Part 1.5 (BONUS): Deploy to GitHub Pages
 
 1. Add, commit, and push the changes you've made so far.
 2. In GitHub, click on the 'Settings' tab of your repo.
