@@ -9,16 +9,16 @@ $muricanRed: #BF0A30;
 $muricanBlue: #002868;
 
 #flag{
-	height: 
-	width: 
+	height: $flagHeightPx;
+	width: $flagHeightPx * $flagWidth;
 }
 b{
-	background-color: 
-	height: 
-	width: 
+	background-color: $muricanBlue;
+	height: $flagHeightPx * $blueHeight;
+	width: $flagHeightPx * $blueWidth
 }
 s{
-	height:
+	height: $flagHeightPx * $stripeHeight;
 
 	// How to make odd-numbered stripes red?
 }
