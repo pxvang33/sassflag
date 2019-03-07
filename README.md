@@ -18,7 +18,13 @@ $ npm run serve
 
 Fill in the blanks in `./src/main.scss` to make the American flag appear!
 
-How do you convert your SCSS to CSS? Copy and paste your SASS to [sass.js.org](https://sass.js.org/), convert it, then copy and paste it to `./dist/main.css`. *Don't get `dist` and `src` mixed up!*
+How do you convert your SCSS to CSS?
+1. Go to [sass.js.org](https://sass.js.org/)
+2. Copy and paste your SASS into the left side (deleting anything already there)
+3. Press "Convert"
+4. Copy and paste the stuff on the right to `./dist/main.css`. *Don't get `dist` and `src` mixed up!*
+
+![Sass](./sass.jpg)
 
 * You will *not* need to change `index.html`.
 * You will *not* need to change the "no touchy" line.
